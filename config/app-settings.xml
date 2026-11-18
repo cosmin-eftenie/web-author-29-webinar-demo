@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- An XML file with no associated framework: Web Author 29 opens it directly in Text mode. -->
+<settings version="2">
+  <server host="localhost" port="8080" secure="false"/>
+  <cache enabled="true" maxEntries="500" ttlSeconds="3600"/>
+  <logging level="INFO">
+    <appender type="file" path="logs/app.log" maxSizeMB="10"/>
+  </logging>
+  <features>
+    <feature name="autosave" enabled="true"/>
+    <feature name="spellcheck" enabled="false"/>
+  </features>
+</settings>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="scale-images">
+  <title>Scale DITA Images</title>
+  <shortdesc>Images that specify a <codeph>scale</codeph> attribute are rendered at the scaled size in
+    the visual editor.</shortdesc>
+  <body>
+    <section id="scaled">
+      <title>Same image, different scale values</title>
+      <p>scale="100"</p>
+      <image href="../images/Iris_sanguinea.jpg" scale="100" id="iris-100"/>
+      <p>scale="60"</p>
+      <image href="../images/Iris_sanguinea.jpg" scale="60" id="iris-60"/>
+      <p>scale="30"</p>
+      <image href="../images/Iris_sanguinea.jpg" scale="30" id="iris-30"/>
+    </section>
+    <section id="set-scale">
+      <title>Set the scale from the floating toolbar</title>
+      <p>Click the image below and use <uicontrol>Set Image Size</uicontrol> from its floating toolbar.
+        Leave the width and height fields empty and set the scale (for example, 50).</p>
+      <image href="../images/Snowdrop.jpg" id="snowdrop"/>
+    </section>
+  </body>
+</topic>

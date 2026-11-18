@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sticky-table-headers">
+  <title>Sticky Table Headers</title>
+  <shortdesc>Click inside the table and use the <uicontrol>Pin/Unpin header</uicontrol> button from
+    its floating toolbar. The button is available when the table is displayed at full width.</shortdesc>
+  <body>
+    <p>The header of this table is tall on purpose. While it is pinned (sticky), it stays visible as you
+      scroll and takes up a large part of the screen. Unpin it to scroll the table freely.</p>
+    <table id="flower-care" frame="all">
+      <title>Flower care guide</title>
+      <tgroup cols="8">
+        <colspec colname="c1" colwidth="2*"/>
+        <colspec colname="c2"/>
+        <colspec colname="c3"/>
+        <colspec colname="c4" colwidth="1.5*"/>
+        <colspec colname="c5"/>
+        <colspec colname="c6"/>
+        <colspec colname="c7" colwidth="1.5*"/>
+        <colspec colname="c8"/>
+        <thead>
+          <row>
+            <entry namest="c1" nameend="c3">Plant identification and flowering period (common name, main
+              flowering season in a temperate climate, and average height of a mature plant)</entry>
+            <entry namest="c4" nameend="c6">Growing conditions recommended for healthy growth and abundant
+              flowering (light exposure, watering needs, and preferred soil type)</entry>
+            <entry namest="c7" nameend="c8">Maintenance (fertilizing schedule during the growing season and
+              whether the plant is suitable for growing in containers)</entry>
+          </row>
+          <row>
+            <entry>Common name</entry>
+            <entry>Flowering season</entry>
+            <entry>Average height (cm)</entry>
+            <entry>Light exposure</entry>
+            <entry>Watering needs</entry>
+            <entry>Preferred soil</entry>
+            <entry>Fertilizing schedule</entry>
+            <entry>Suitable for containers</entry>
+          </row>
+        </thead>
+        <tbody>
+            <row><entry>Snowdrop</entry><entry>Winter</entry><entry>20</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Crocus</entry><entry>Spring</entry><entry>27</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Hyacinth</entry><entry>Summer</entry><entry>34</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Daffodil</entry><entry>Autumn</entry><entry>41</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Tulip</entry><entry>Winter</entry><entry>48</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Lilac</entry><entry>Spring</entry><entry>55</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Iris</entry><entry>Summer</entry><entry>62</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Peony</entry><entry>Autumn</entry><entry>69</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Lily of the valley</entry><entry>Winter</entry><entry>76</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Rose</entry><entry>Spring</entry><entry>83</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Lavender</entry><entry>Summer</entry><entry>90</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Gerbera</entry><entry>Autumn</entry><entry>97</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Salvia</entry><entry>Winter</entry><entry>104</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Sunflower</entry><entry>Spring</entry><entry>111</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Dahlia</entry><entry>Summer</entry><entry>118</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Zinnia</entry><entry>Autumn</entry><entry>125</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Petunia</entry><entry>Winter</entry><entry>132</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Marigold</entry><entry>Spring</entry><entry>139</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Begonia</entry><entry>Summer</entry><entry>146</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Gardenia</entry><entry>Autumn</entry><entry>23</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Hydrangea</entry><entry>Winter</entry><entry>30</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Chrysanthemum</entry><entry>Spring</entry><entry>37</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Aster</entry><entry>Summer</entry><entry>44</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Cosmos</entry><entry>Autumn</entry><entry>51</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Sedum</entry><entry>Winter</entry><entry>58</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Heather</entry><entry>Spring</entry><entry>65</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Cyclamen</entry><entry>Summer</entry><entry>72</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Hellebore</entry><entry>Autumn</entry><entry>79</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Pansy</entry><entry>Winter</entry><entry>86</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Primrose</entry><entry>Spring</entry><entry>93</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Anemone</entry><entry>Summer</entry><entry>100</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Camellia</entry><entry>Autumn</entry><entry>107</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Fuchsia</entry><entry>Winter</entry><entry>114</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Geranium</entry><entry>Spring</entry><entry>121</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Lupin</entry><entry>Summer</entry><entry>128</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Foxglove</entry><entry>Autumn</entry><entry>135</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Delphinium</entry><entry>Winter</entry><entry>142</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Clematis</entry><entry>Spring</entry><entry>149</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Magnolia</entry><entry>Summer</entry><entry>26</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Azalea</entry><entry>Autumn</entry><entry>33</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

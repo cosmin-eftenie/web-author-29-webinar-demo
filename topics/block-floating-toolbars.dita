@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="block-floating-toolbars">
+  <title>Block Floating Toolbars</title>
+  <shortdesc>Place the caret inside a note, a code block, a table, or an image. A floating toolbar is
+    displayed below the element, without selecting the whole element first.</shortdesc>
+  <body>
+    <section id="notes">
+      <title>Notes (custom toolbar from the "DITA - Webinar WA 29" framework extension)</title>
+      <note type="note">
+        <p>Click inside this note and change its type from the <b>Note type</b> drop-down.</p>
+      </note>
+      <note type="tip">
+        <p>Plant spring bulbs in the autumn, before the ground freezes.</p>
+      </note>
+      <note type="warning">
+        <p>Some garden plants are toxic to pets. Check before planting.</p>
+      </note>
+    </section>
+    <section id="code">
+      <title>Code blocks (custom toolbar)</title>
+      <codeblock outputclass="language-css">*[class ~= "topic/note"] {
+  -oxy-block-floating-toolbar:
+      oxy_label(text, 'Note type: ')
+      oxy_combobox(edit, '@type', editable, false, values, 'note, tip, warning')
+      '|'
+      oxy_button(actionID, 'paragraph');
+}</codeblock>
+      <codeblock outputclass="language-xml">&lt;note type="tip"&gt;
+  &lt;p&gt;Plant spring bulbs in the autumn.&lt;/p&gt;
+&lt;/note&gt;</codeblock>
+    </section>
+    <section id="builtin">
+      <title>Built-in DITA toolbars (tables and images)</title>
+      <table id="small-table" frame="all">
+        <title>Flowering season</title>
+        <tgroup cols="2">
+          <colspec colname="c1"/>
+          <colspec colname="c2"/>
+          <thead>
+            <row><entry>Flower</entry><entry>Season</entry></row>
+          </thead>
+          <tbody>
+            <row><entry>Snowdrop</entry><entry>Winter</entry></row>
+            <row><entry>Lilac</entry><entry>Spring</entry></row>
+            <row><entry>Gerbera</entry><entry>Summer</entry></row>
+          </tbody>
+        </tgroup>
+      </table>
+      <image href="../images/Gardeniaflower.jpg" width="240px" id="gardenia"/>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="webinar-wa29">
+  <title>What's New in Oxygen XML Web Author 29 - Demo</title>
+  <topichead navtitle="General Editing/Reviewing">
+    <topicref href="topics/git-lfs-images.dita"/>
+    <topicref href="topics/smart-paste.dita"/>
+    <topicref href="topics/scale-images.dita"/>
+  </topichead>
+  <topichead navtitle="Customization and Integration">
+    <topicref href="topics/block-floating-toolbars.dita"/>
+  </topichead>
+  <topichead navtitle="Other Improvements">
+    <topicref href="topics/sticky-table-headers.dita"/>
+  </topichead>
+</map>

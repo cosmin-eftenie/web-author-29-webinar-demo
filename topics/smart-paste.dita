@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="smart-paste">
+  <title>Smart Paste URLs over Selected Text</title>
+  <body>
+    <p>Copy this URL: <codeph>https://www.oxygenxml.com/xml_web_author/whats_new.html</codeph></p>
+    <p>Then select the words <b>What's New in Web Author 29</b> below and paste. The selection becomes a
+      link to the URL and keeps the selected text as the link label.</p>
+    <p>For all the details, read What's New in Web Author 29 on the Oxygen website.</p>
+  </body>
+</topic>

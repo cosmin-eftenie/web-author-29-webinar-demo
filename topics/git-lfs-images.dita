@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="git-lfs-images">
+  <title>Images Stored with Git LFS</title>
+  <shortdesc>All the images in this topic are stored with Git Large File Storage (LFS). The repository
+    only keeps a small text pointer for each of them.</shortdesc>
+  <body>
+    <p>Web Author 29 detects the Git LFS pointers and retrieves the real files, so the images are
+      displayed in the editing area, just like regular files.</p>
+    <fig id="fig-chrysanthemums">
+      <title>Chrysanthemums</title>
+      <image href="../images/Chrysanthemums.jpg" width="320px"/>
+    </fig>
+    <fig id="fig-gerbera">
+      <title>Gerbera</title>
+      <image href="../images/Gerbera.jpg" width="320px"/>
+    </fig>
+    <fig id="fig-lilac">
+      <title>Lilac</title>
+      <image href="../images/Lilac.jpg" width="320px"/>
+    </fig>
+    <fig id="fig-salvia">
+      <title>Salvia</title>
+      <image href="../images/Salvia.jpg" width="320px"/>
+    </fig>
+  </body>
+</topic>
