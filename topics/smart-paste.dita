@@ -3,9 +3,12 @@
 <topic id="smart-paste">
   <title>Smart Paste URLs over Selected Text</title>
   <body>
-    <p>Copy this URL: <codeph>https://www.oxygenxml.com/xml_web_author/whats_new.html</codeph></p>
+    <p>Copy a URL from <b>outside</b> the editor, for example from the address bar of a browser tab
+      that has the Web Author 29 What's New page open.</p>
     <p>Then select the words <b>What's New in Web Author 29</b> below and paste. The selection becomes a
       link to the URL and keeps the selected text as the link label.</p>
+    <note type="tip">Smart paste applies to a URL copied as plain text. Content copied from inside the
+      editor is pasted as it is.</note>
     <p>For all the details, read What's New in Web Author 29 on the Oxygen website.</p>
   </body>
 </topic>
