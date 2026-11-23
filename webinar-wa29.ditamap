@@ -9,6 +9,7 @@
   </topichead>
   <topichead navtitle="Customization and Integration">
     <topicref href="topics/block-floating-toolbars.dita"/>
+    <topicref href="topics/outline-contextual-menu.dita"/>
   </topichead>
   <topichead navtitle="Other Improvements">
     <topicref href="topics/sticky-table-headers.dita"/>

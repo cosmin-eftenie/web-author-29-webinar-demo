@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="outline-contextual-menu">
+  <title>Configure the Outline Pane Contextual Menu</title>
+  <shortdesc>The contextual menu of the Outline pane can be configured per framework, in the
+    <filepath>webAuthorOutlineConfig.xml</filepath> file, separately for the Contents and Structure
+    modes.</shortdesc>
+  <body>
+    <section id="try">
+      <title>Try it</title>
+      <p>Open the <filepath>webinar-wa29.ditamap</filepath> map and right-click an entry in the Outline
+        pane.</p>
+      <ul>
+        <li><b>Contents</b> mode (<codeph>overrideBuiltInActions="no"</codeph>): the configured entries
+          (<uicontrol>Change Title...</uicontrol>, <uicontrol>Insert Topic Reference...</uicontrol> on
+          <xmlelement>topicref</xmlelement> elements only, <uicontrol>Edit Attributes...</uicontrol>)
+          are displayed first, followed by the built-in menu. An action that is also in the built-in
+          menu is displayed only once.</li>
+        <li><uicontrol>Change Title...</uicontrol> is a custom framework action. It sets the
+          navigation title (<xmlatt>navtitle</xmlatt>) of the map entry, so the new title is displayed
+          in the Outline right away. The title of the topic itself does not change.</li>
+        <li><b>Structure</b> mode (no attribute, default <codeph>"yes"</codeph>): the configured
+          entries replace the built-in menu.</li>
+      </ul>
+    </section>
+    <section id="config">
+      <title>The configuration file</title>
+      <p><filepath>user-frameworks/webinar-wa29-ditamap/outline/webAuthorOutlineConfig.xml</filepath>,
+        added to the classpath of a framework extension based on DITA Map:</p>
+      <codeblock outputclass="language-xml">&lt;outline&gt;
+  &lt;structureMode editable="yes" default="no"&gt;
+    &lt;preferredAttributes names="id keys"/&gt;
+    &lt;menu&gt;
+      &lt;action&gt;App/FocusAttributesPanel&lt;/action&gt;
+      &lt;sep/&gt;
+      &lt;action&gt;Author/CopySpecial&lt;/action&gt;
+      &lt;sep/&gt;
+      &lt;action&gt;Outline/ExpandAll&lt;/action&gt;
+      &lt;action&gt;Outline/CollapseAll&lt;/action&gt;
+    &lt;/menu&gt;
+  &lt;/structureMode&gt;
+  &lt;tocMode editable="yes" default="yes"&gt;
+    &lt;elements names="topicref section topichead reltable chapter mapref"/&gt;
+    &lt;!-- titleLocator elements omitted --&gt;
+    &lt;menu overrideBuiltInActions="no"&gt;
+      &lt;action&gt;webinar.change.title&lt;/action&gt;
+      &lt;action element="topicref"&gt;insert.topicref&lt;/action&gt;
+      &lt;action&gt;App/FocusAttributesPanel&lt;/action&gt;
+      &lt;sep/&gt;
+    &lt;/menu&gt;
+  &lt;/tocMode&gt;
+&lt;/outline&gt;</codeblock>
+    </section>
+    <section id="action">
+      <title>The custom action</title>
+      <p><filepath>webinar-wa29-ditamap_externalAuthorActions/webinar.change.title.xml</filepath>:</p>
+      <codeblock outputclass="language-xml">&lt;a:authorAction id="webinar.change.title"
+  xmlns:a="http://www.oxygenxml.com/ns/author/external-action"&gt;
+  &lt;a:name&gt;Change Title...&lt;/a:name&gt;
+  &lt;a:operations&gt;
+    &lt;a:operation id="ChangeAttributeOperation"&gt;
+      &lt;a:xpathCondition&gt;self::*[contains(@class, ' map/topicref ')]&lt;/a:xpathCondition&gt;
+      &lt;a:arguments&gt;
+        &lt;a:argument name="elementLocation"&gt;.&lt;/a:argument&gt;
+        &lt;a:argument name="name"&gt;navtitle&lt;/a:argument&gt;
+        &lt;a:argument name="value"&gt;${ask('New title', generic, '')}&lt;/a:argument&gt;
+      &lt;/a:arguments&gt;
+    &lt;/a:operation&gt;
+  &lt;/a:operations&gt;
+&lt;/a:authorAction&gt;</codeblock>
+    </section>
+  </body>
+</topic>
