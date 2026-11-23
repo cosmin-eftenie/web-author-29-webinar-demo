@@ -19,12 +19,31 @@
     </section>
     <section id="code">
       <title>Code blocks (custom toolbar)</title>
-      <codeblock outputclass="language-css">*[class ~= "topic/note"] {
-  -oxy-block-floating-toolbar:
-      oxy_label(text, 'Note type: ')
-      oxy_combobox(edit, '@type', editable, false, values, 'note, tip, warning')
-      '|'
-      oxy_button(actionID, 'paragraph');
+      <codeblock outputclass="language-css">@media oxygen and (platform:webapp) {
+
+  /* Notes: change the note type without opening the Attributes pane. */
+  *[class ~= "topic/note"] {
+    -oxy-block-floating-toolbar:
+        oxy_label(text, 'Note type: ')
+        oxy_combobox(
+            edit, '@type',
+            editable, false,
+            values, 'note, tip, important, remember, restriction, attention, caution, notice, danger, warning, trouble, fastpath',
+            labels, 'Note, Tip, Important, Remember, Restriction, Attention, Caution, Notice, Danger, Warning, Trouble, Fast path')
+        '|'
+        oxy_button(actionID, 'paragraph');
+  }
+
+  /* Code blocks: pick the language used for syntax highlighting. */
+  *[class ~= "pr-d/codeblock"] {
+    -oxy-block-floating-toolbar:
+        oxy_label(text, 'Language: ')
+        oxy_combobox(
+            edit, '@outputclass',
+            editable, true,
+            values, 'language-xml, language-css, language-javascript, language-java, language-json, language-bash',
+            labels, 'XML, CSS, JavaScript, Java, JSON, Bash');
+  }
 }</codeblock>
       <codeblock outputclass="language-xml">&lt;note type="tip"&gt;
   &lt;p&gt;Plant spring bulbs in the autumn.&lt;/p&gt;
