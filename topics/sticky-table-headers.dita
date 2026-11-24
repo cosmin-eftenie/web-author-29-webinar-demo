@@ -20,12 +20,24 @@
         <colspec colname="c8"/>
         <thead>
           <row>
-            <entry namest="c1" nameend="c3">Plant identification and flowering period (common name, main
-              flowering season in a temperate climate, and average height of a mature plant)</entry>
+            <entry namest="c1" nameend="c3">Plant identification and flowering period: the common name used
+              in most garden centers and nurseries, the main flowering season for plants grown outdoors in
+              a temperate climate, and the average height reached by a mature, healthy plant under normal
+              growing conditions. Flowering periods can shift by two to four weeks depending on the
+              region, the altitude, and the weather of the current year, so use them as an approximate
+              guide when planning a garden that should stay in bloom from early spring until late autumn.
+              Heights are given for plants grown in open ground; plants grown in containers usually stay
+              smaller.</entry>
             <entry namest="c4" nameend="c6">Growing conditions recommended for healthy growth and abundant
-              flowering (light exposure, watering needs, and preferred soil type)</entry>
-            <entry namest="c7" nameend="c8">Maintenance (fertilizing schedule during the growing season and
-              whether the plant is suitable for growing in containers)</entry>
+              flowering: the amount of direct sunlight the plant needs each day, how often it should be
+              watered during the growing season, and the soil type in which it develops best. These values
+              describe the ideal conditions; most plants tolerate small variations, but a plant kept for a
+              long time in the wrong light, with too much or too little water, or in an unsuitable soil
+              will produce fewer flowers and is more exposed to pests and diseases.</entry>
+            <entry namest="c7" nameend="c8">Maintenance: how often to apply a balanced fertilizer during the
+              growing season, and whether the plant can be grown successfully in pots or containers on a
+              balcony or terrace. Stop fertilizing at the end of summer so that the plant can prepare for
+              winter, and always follow the dosage recommended by the fertilizer manufacturer.</entry>
           </row>
           <row>
             <entry>Common name</entry>
@@ -36,6 +48,28 @@
             <entry>Preferred soil</entry>
             <entry>Fertilizing schedule</entry>
             <entry>Suitable for containers</entry>
+          </row>
+          <row>
+            <entry>As commonly used in garden centers and nurseries; botanical names are not included in
+              this guide</entry>
+            <entry>Northern Hemisphere, temperate climate; the main season in which most of the flowers
+              open</entry>
+            <entry>Measured at full maturity, without supports, for plants grown in open ground</entry>
+            <entry>Full sun means at least 6 hours of direct sunlight; shade means less than 3 hours</entry>
+            <entry>During the growing season; reduce watering in winter and for plants kept indoors</entry>
+            <entry>Well-drained soil is recommended for all plants; avoid soil that stays wet for long</entry>
+            <entry>Balanced fertilizer, applied from spring until late summer, never in winter</entry>
+            <entry>Minimum pot depth of 30 cm for larger plants; use pots with drainage holes</entry>
+          </row>
+          <row>
+            <entry>See the plant label for the exact variety</entry>
+            <entry>Some varieties flower again in autumn</entry>
+            <entry>Dwarf varieties can be much smaller</entry>
+            <entry>Protect from strong afternoon sun in summer</entry>
+            <entry>Water early in the morning, at the base of the plant</entry>
+            <entry>Add compost once a year, in spring</entry>
+            <entry>Use half the dose for young plants</entry>
+            <entry>Move containers to a sheltered place in winter</entry>
           </row>
         </thead>
         <tbody>
@@ -79,6 +113,46 @@
             <row><entry>Clematis</entry><entry>Spring</entry><entry>149</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
             <row><entry>Magnolia</entry><entry>Summer</entry><entry>26</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
             <row><entry>Azalea</entry><entry>Autumn</entry><entry>33</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Orchid</entry><entry>Winter</entry><entry>15</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Jasmine</entry><entry>Spring</entry><entry>24</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Camellia sasanqua</entry><entry>Summer</entry><entry>33</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Freesia</entry><entry>Autumn</entry><entry>42</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Gladiolus</entry><entry>Winter</entry><entry>51</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Amaryllis</entry><entry>Spring</entry><entry>60</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Anthurium</entry><entry>Summer</entry><entry>69</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Bougainvillea</entry><entry>Autumn</entry><entry>78</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Carnation</entry><entry>Winter</entry><entry>87</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Cornflower</entry><entry>Spring</entry><entry>96</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Daisy</entry><entry>Summer</entry><entry>105</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Edelweiss</entry><entry>Autumn</entry><entry>114</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Forget-me-not</entry><entry>Winter</entry><entry>123</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Gazania</entry><entry>Spring</entry><entry>132</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Hibiscus</entry><entry>Summer</entry><entry>141</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Impatiens</entry><entry>Autumn</entry><entry>150</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Kalanchoe</entry><entry>Winter</entry><entry>19</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Larkspur</entry><entry>Spring</entry><entry>28</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Lobelia</entry><entry>Summer</entry><entry>37</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Lupine</entry><entry>Autumn</entry><entry>46</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Mimosa</entry><entry>Winter</entry><entry>55</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Nasturtium</entry><entry>Spring</entry><entry>64</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Oleander</entry><entry>Summer</entry><entry>73</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Pelargonium</entry><entry>Autumn</entry><entry>82</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Phlox</entry><entry>Winter</entry><entry>91</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Poppy</entry><entry>Spring</entry><entry>100</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Ranunculus</entry><entry>Summer</entry><entry>109</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Rudbeckia</entry><entry>Autumn</entry><entry>118</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Snapdragon</entry><entry>Winter</entry><entry>127</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Statice</entry><entry>Spring</entry><entry>136</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Sweet pea</entry><entry>Summer</entry><entry>145</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Verbena</entry><entry>Autumn</entry><entry>154</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Viola</entry><entry>Winter</entry><entry>23</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Wisteria</entry><entry>Spring</entry><entry>32</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
+            <row><entry>Yarrow</entry><entry>Summer</entry><entry>41</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Alstroemeria</entry><entry>Autumn</entry><entry>50</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Bluebell</entry><entry>Winter</entry><entry>59</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Monthly</entry><entry>No</entry></row>
+            <row><entry>Calendula</entry><entry>Spring</entry><entry>68</entry><entry>Partial shade</entry><entry>High</entry><entry>Acidic</entry><entry>Every 2 weeks</entry><entry>Yes</entry></row>
+            <row><entry>Echinacea</entry><entry>Summer</entry><entry>77</entry><entry>Shade</entry><entry>Low</entry><entry>Neutral</entry><entry>Monthly</entry><entry>Yes</entry></row>
+            <row><entry>Lantana</entry><entry>Autumn</entry><entry>86</entry><entry>Full sun</entry><entry>Moderate</entry><entry>Alkaline</entry><entry>Every 2 weeks</entry><entry>No</entry></row>
         </tbody>
       </tgroup>
     </table>
