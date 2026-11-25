@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Webinar WA 29 - custom framework action used in the Outline contextual menu.
+  Asks for a new title and sets it as the navigation title (@navtitle) of the topicref / topichead on
+  which the contextual menu was opened. The Outline shows @navtitle as the title (see titleLocator in
+  outline/webAuthorOutlineConfig.xml), so the new title is visible right away.
+-->
+<a:authorAction xmlns:a="http://www.oxygenxml.com/ns/author/external-action"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.oxygenxml.com/ns/author/external-action http://www.oxygenxml.com/ns/author/external-action/authorAction.xsd"
+  id="webinar.change.title">
+  <a:name>Change Title...</a:name>
+  <a:description>Sets a new navigation title for this entry</a:description>
+  <a:operations>
+    <a:operation id="ChangeAttributeOperation">
+      <!-- topicref and all its specializations (topichead, chapter, ...) -->
+      <a:xpathCondition>self::*[contains(@class, ' map/topicref ')]</a:xpathCondition>
+      <a:arguments>
+        <a:argument name="elementLocation">.</a:argument>
+        <a:argument name="name">navtitle</a:argument>
+        <a:argument name="value">${ask('New title', generic, '')}</a:argument>
+      </a:arguments>
+    </a:operation>
+  </a:operations>
+</a:authorAction>

@@ -1,0 +1,36 @@
+/*
+ * Webinar WA 29 - -oxy-block-floating-toolbar demo.
+ *
+ * -oxy-block-floating-toolbar attaches a toolbar to a block-level element and shows it whenever the
+ * caret is inside that element. Unlike -oxy-floating-toolbar, it does not need the -oxy-selected or
+ * -oxy-selection-inside pseudo-classes.
+ *
+ * It accepts oxy_button, oxy_buttonGroup, oxy_combobox, oxy_label and '|' separators.
+ * Same syntax as the bundled frameworks/dita/css/floating_toolbar/topic.css.
+ */
+@media oxygen and (platform:webapp) {
+
+  /* Notes: change the note type without opening the Attributes pane. */
+  *[class ~= "topic/note"] {
+    -oxy-block-floating-toolbar:
+        oxy_label(text, 'Note type: ')
+        oxy_combobox(
+            edit, '@type',
+            editable, false,
+            values, 'note, tip, important, remember, restriction, attention, caution, notice, danger, warning, trouble, fastpath',
+            labels, 'Note, Tip, Important, Remember, Restriction, Attention, Caution, Notice, Danger, Warning, Trouble, Fast path')
+        '|'
+        oxy_button(actionID, 'paragraph');
+  }
+
+  /* Code blocks: pick the language used for syntax highlighting. */
+  *[class ~= "pr-d/codeblock"] {
+    -oxy-block-floating-toolbar:
+        oxy_label(text, 'Language: ')
+        oxy_combobox(
+            edit, '@outputclass',
+            editable, true,
+            values, 'language-xml, language-css, language-javascript, language-java, language-json, language-bash',
+            labels, 'XML, CSS, JavaScript, Java, JSON, Bash');
+  }
+}

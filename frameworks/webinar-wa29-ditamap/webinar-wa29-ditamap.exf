@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Webinar "What's New in Oxygen XML Web Author 29" - demo for the configurable Outline contextual menu.
+  Extends the bundled DITA Map framework and puts the "outline" folder FIRST on the classpath, so its
+  webAuthorOutlineConfig.xml is found before the bundled one
+  (frameworks/dita/web-author-additional-classpath/webAuthorOutlineConfig.xml).
+-->
+<script
+  xmlns="http://www.oxygenxml.com/ns/framework/extend"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.oxygenxml.com/ns/framework/extend http://www.oxygenxml.com/ns/framework/extend/frameworkExtensionScript.xsd"
+  base="DITA Map">
+  <name>DITA Map - Webinar WA 29</name>
+  <description>DITA Map with a custom Outline pane contextual menu (webAuthorOutlineConfig.xml demo).</description>
+  <priority>High</priority>
+  <classpath>
+    <addEntry path="${framework}/outline/" position="before"/>
+  </classpath>
+</script>

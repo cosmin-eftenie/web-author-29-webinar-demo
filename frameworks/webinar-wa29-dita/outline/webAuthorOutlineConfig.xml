@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Webinar WA 29 - enables the Outline pane for DITA topics.
+  The bundled DITA (topic) framework has no webAuthorOutlineConfig.xml, so the Outline pane is not
+  shown for topics by default. Placing this file on the framework classpath enables it.
+  No <menu> is declared, so both modes use the built-in contextual menu.
+-->
+<outline>
+  <structureMode editable="yes" default="no">
+    <preferredAttributes names="id"/>
+  </structureMode>
+  <tocMode editable="yes" default="yes">
+    <elements names="topic concept task reference glossentry troubleshooting section example fig table"/>
+    <titleLocator element="topic" location="title"/>
+    <titleLocator element="concept" location="title"/>
+    <titleLocator element="task" location="title"/>
+    <titleLocator element="reference" location="title"/>
+    <titleLocator element="glossentry" location="glossterm"/>
+    <titleLocator element="troubleshooting" location="title"/>
+    <titleLocator element="section" location="title"/>
+    <titleLocator element="example" location="title"/>
+    <titleLocator element="fig" location="title"/>
+    <titleLocator element="table" location="title"/>
+  </tocMode>
+</outline>

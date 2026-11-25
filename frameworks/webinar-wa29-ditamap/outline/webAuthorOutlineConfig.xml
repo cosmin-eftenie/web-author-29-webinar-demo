@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Webinar WA 29 - Outline pane contextual menu demo (WA-10310, WA-10368).
+  Elements and title locators are copied from the bundled DITA Map configuration:
+  frameworks/dita/web-author-additional-classpath/webAuthorOutlineConfig.xml
+
+  The two modes use the two behaviors, so switching Display Mode in the Outline pane shows both:
+  - Contents (tocMode): overrideBuiltInActions="no" -> the declared entries come FIRST, followed by
+    the built-in menu. An action that is also in the built-in menu, such as Edit Attributes
+    (App/FocusAttributesPanel), is displayed only once, where it is declared here.
+  - Structure (structureMode): no attribute -> the declared entries REPLACE the built-in menu.
+-->
+<outline>
+  <structureMode editable="yes" default="no">
+    <preferredAttributes names="id keys"/>
+    <menu>
+      <action>App/FocusAttributesPanel</action>
+      <sep/>
+      <action>Author/CopySpecial</action>
+      <sep/>
+      <action>Outline/ExpandAll</action>
+      <action>Outline/CollapseAll</action>
+    </menu>
+  </structureMode>
+  <tocMode editable="yes" default="yes">
+    <elements names="topicref section topichead reltable chapter mapref"/>
+    <titleLocator element="topicref" location="topicmeta/navtitle,@navtitle,before(1030),.//title,@href"/>
+    <titleLocator element="chapter" location="@navtitle,before(1030),@href"/>
+    <titleLocator element="mapref" location="@navtitle,before(1030),@href"/>
+    <titleLocator element="topichead" location="@navtitle"/>
+    <menu overrideBuiltInActions="no">
+      <!-- Custom action defined in this framework extension
+           (webinar-wa29-ditamap_externalAuthorActions/webinar.change.title.xml) -->
+      <action>webinar.change.title</action>
+      <!-- Bundled DITA Map framework action, shown only on topicref elements -->
+      <action element="topicref">insert.topicref</action>
+      <!-- Also in the built-in menu: displayed only once, here -->
+      <action>App/FocusAttributesPanel</action>
+      <sep/>
+    </menu>
+  </tocMode>
+</outline>

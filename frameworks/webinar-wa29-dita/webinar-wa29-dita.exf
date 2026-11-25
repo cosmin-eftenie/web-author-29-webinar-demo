@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Webinar "What's New in Oxygen XML Web Author 29" - demo for -oxy-block-floating-toolbar.
+  Extends the bundled DITA framework and adds block floating toolbars for notes and code blocks.
+  The toolbars appear as soon as the caret is inside the element, no selection needed.
+-->
+<script
+  xmlns="http://www.oxygenxml.com/ns/framework/extend"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.oxygenxml.com/ns/framework/extend http://www.oxygenxml.com/ns/framework/extend/frameworkExtensionScript.xsd"
+  base="DITA">
+  <name>DITA - Webinar WA 29</name>
+  <description>DITA with block floating toolbars for notes and code blocks (-oxy-block-floating-toolbar demo).</description>
+  <priority>High</priority>
+  <!-- Enables the Outline pane for DITA topics (outline/webAuthorOutlineConfig.xml) -->
+  <classpath>
+    <addEntry path="${framework}/outline/" position="before"/>
+  </classpath>
+  <author>
+    <css>
+      <addCss path="${framework}/css/webinar-block-toolbars.css" position="after"/>
+    </css>
+  </author>
+</script>
